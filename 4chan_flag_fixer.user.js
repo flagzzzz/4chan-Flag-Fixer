@@ -16,8 +16,8 @@
 // @grant       GM_addStyle
 // @run-at      document-end
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
-// @updateURL   
-// @downloadURL 
+// @updateURL   https://github.com/flagzzzz/4chan-Flag-Fixer/raw/master/4chan_flag_fixer.user.js
+// @downloadURL https://github.com/flagzzzz/4chan-Flag-Fixer/raw/master/4chan_flag_fixer.user.js
 // ==/UserScript==
 var flagOption = "fixed"; // Radio button; options are fixed, diverse, or official flags
 var flagOptionsVar = "fixerFlagOptions";
