@@ -7,3 +7,5 @@ You can see what changes the various presets make [here](https://raw.githubuserc
 1) Install GreaseMonkey if you are on Firefox or TamperMonkey if you are on Chrome.
 
 2) Click [here](https://github.com/flagzzzz/4chan-Flag-Fixer/raw/master/4chan_flag_fixer.user.js) to install the script.
+
+3) Set your preset using the User Script Commands menu in your browser
