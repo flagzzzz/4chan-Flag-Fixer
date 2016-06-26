@@ -27,8 +27,8 @@ var nameSpace = "flagfixer.";
 var setup = {
 	html: function () {
         var htmlFixedStart = '<div>4chan Fixed Flags</div><br/>';
-        var htmlSaveButton = '<div><button name="save" title="Pressing &#34;Save Region&#34; will save the currently selected region as your region">' +
-            'Save Region</button></div><br/>';
+        var htmlSaveButton = '<div><button name="save" title="Pressing &#34;Save Preset&#34; will set your preset to whatever is selected">' +
+            'Save Preset</button></div><br/>';
         var filterRadio = '<br/><br/><form id="filterRadio">' +
             '<input type="radio" name="filterRadio" id="filterRadiofixed" style="display: inline !important;" value="fixed"><label>Fixed: flags are updated and glossed</label>' +
             '<br/><input type="radio" name="filterRadio" id="filterRadiounofficial" style="display: inline !important;" value="unofficial"><label>Unofficial: use unofficial flags</label>' +

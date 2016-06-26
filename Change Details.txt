@@ -5,6 +5,7 @@ Fixed:
 -redid the Isle of Man and glossed it
 -darkened the blue on the French flag
 -reduced size of coat of arms on the flag of Ecuador
+-added the coat of arms to the Haitian flag
 -"glossed" Jersey, Guernsey, South Sudan, Saint Martin, Sint Maarten, Curaçao
 -updated Tuvalu, Tokelau, Venezuela, Paraguay, Myanmar, Lesotho, Ethiopia, Belarus (slightly reduced saturation in red area)
 
