@@ -20,4 +20,4 @@ Unofficial:
 
 Todo:
 -create setting which can allow the user to toggle displaying flags on flag boards of their choice
--make it so that when a flag is clicked, the replaced version will pop up
+-make it so that when a flag is clicked, the replaced version will pop up instead of the normal version
