@@ -8,7 +8,7 @@
 // @exclude     http*://boards.4chan.org/int/catalog
 // @exclude     http*://boards.4chan.org/sp/catalog
 // @exclude     http*://boards.4chan.org/pol/catalog
-// @version     1.0
+// @version     1.1
 // @grant       GM_xmlhttpRequest
 // @grant       GM_registerMenuCommand
 // @grant       GM_getValue
@@ -29,13 +29,14 @@ var setup = {
         var htmlFixedStart = '<div>4chan Fixed Flags</div><br/>';
         var htmlSaveButton = '<div><button name="save" title="Pressing &#34;Save Preset&#34; will set your preset to whatever is selected">' +
             'Save Preset</button></div><br/>';
-        var filterRadio = '<br/><br/><form id="filterRadio">' +
+		var helpText = '<label name="fixedflagslabel"><a href="https://github.com/flagzzzz/4chan-Flag-Fixer" style="color:blue">Click here</a> for a complete description of each preset.</label>';
+        var filterRadio = '<br/><form id="filterRadio">' +
             '<input type="radio" name="filterRadio" id="filterRadiofixed" style="display: inline !important;" value="fixed"><label>Fixed: flags are updated and glossed</label>' +
             '<br/><input type="radio" name="filterRadio" id="filterRadiounofficial" style="display: inline !important;" value="unofficial"><label>Unofficial: use unofficial flags</label>' +
             '<br/><input type="radio" name="filterRadio" id="filterRadioofficial" style="display: inline !important;" value="official"><label>Official only: only use official flags</label>' +
             '</form>';
 			
-        return htmlFixedStart + htmlSaveButton + filterRadio;
+        return htmlFixedStart + htmlSaveButton + helpText + filterRadio;
 
     },
 	setRadio: function() {
