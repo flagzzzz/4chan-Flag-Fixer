@@ -1,8 +1,8 @@
 Fixed:
--Removed yellow dot from US flag
+-Removed the yellow dot from US flag
 -tweaked Libya to be more consistent with the other flags
 -turned Western Sahara in the right direction
--redid the Isle of Man and glossed it
+-redid the Isle of Man and "glossed" it
 -darkened the blue on the French flag
 -reduced size of coat of arms on the flag of Ecuador
 -added the coat of arms to the Haitian flag
@@ -11,12 +11,13 @@ Fixed:
 
 Official:
 -same changes as Fixed
--the following countries have their official flags: Saint Pierre and Miquelon, Saint Martin, Guadeloupe, Martinique, Wallis and Futuna, and Mayotte
+-the following countries use their official flag (which is the French tricolor for all of them): Saint Pierre and Miquelon, Saint Martin, Guadeloupe, Martinique, Wallis & Futuna, and Mayotte
 
 Unofficial:
 -same changes as Fixed
--the following countries have their unofficial flags: Antarctica, Saint Barthelemy, Réunion, and French Guiana
--rescaled Niger (might move to Fixed)
+-the following countries use their unofficial flag: Antarctica, Saint Barthelemy, Réunion, and French Guiana
+-rescaled Niger to 13px by 11px (might move to Fixed)
 
 Todo:
 -create setting which can allow the user to toggle displaying flags on flag boards of their choice
+-make it so that when a flag is clicked, the replaced version will pop up
