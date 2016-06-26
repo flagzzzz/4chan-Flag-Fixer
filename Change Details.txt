@@ -5,7 +5,7 @@ Fixed:
 -redid the Isle of Man and glossed it
 -darkened the blue on the French flag
 -reduced size of coat of arms on the flag of Ecuador
--glossed Jersey, Guernsey, South Sudan, Saint Martin, Sint Maarten, Curacao
+-"glossed" Jersey, Guernsey, South Sudan, Saint Martin, Sint Maarten, Curaçao
 -updated Tuvalu, Tokelau, Venezuela, Paraguay, Myanmar, Lesotho, Ethiopia, Belarus (slightly reduced saturation in red area)
 
 Official:
@@ -16,3 +16,6 @@ Unofficial:
 -same changes as Fixed
 -the following countries have their unofficial flags: Antarctica, Saint Barthelemy, Réunion, and French Guiana
 -rescaled Niger (might move to Fixed)
+
+Todo:
+-create setting which can allow the user to toggle displaying flags on flag boards of their choice
