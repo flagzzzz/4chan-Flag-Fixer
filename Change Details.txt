@@ -1,0 +1,18 @@
+Fixed:
+-Removed yellow dot from US flag
+-tweaked Libya to be more consistent with the other flags
+-turned Western Sahara in the right direction
+-redid the Isle of Man and glossed it
+-darkened the blue on the French flag
+-reduced size of coat of arms on the flag of Ecuador
+-glossed Jersey, Guernsey, South Sudan, Saint Martin, Sint Maarten, Curacao
+-updated Tuvalu, Tokelau, Venezuela, Paraguay, Myanmar, Lesotho, Ethiopia, Belarus (slightly reduced saturation in red area)
+
+Official:
+-same changes as Fixed
+-the following countries have their official flags: Saint Pierre and Miquelon, Saint Martin, Guadeloupe, Martinique, Wallis and Futuna, and Mayotte
+
+Unofficial:
+-same changes as Fixed
+-the following countries have their unofficial flags: Antarctica, Saint Barthelemy, Réunion, and French Guiana
+-rescaled Niger (might move to Fixed)
