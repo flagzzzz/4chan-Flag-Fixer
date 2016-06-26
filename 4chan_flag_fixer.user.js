@@ -31,8 +31,8 @@ var setup = {
             'Save Region</button></div><br/>';
         var filterRadio = '<br/><br/><form id="filterRadio">' +
             '<input type="radio" name="filterRadio" id="filterRadiofixed" style="display: inline !important;" value="fixed"><label>Fixed: flags are updated and glossed</label>' +
-            '<br/><input type="radio" name="filterRadio" id="filterRadiodiverse" style="display: inline !important;" value="diverse"><label>Unofficial: use unofficial flags</label>' +
-            '<br/><input type="radio" name="filterRadio" id="filterRadioofficial" style="display: inline !important;" value="last"><label>Official only: only use official flags</label>' +
+            '<br/><input type="radio" name="filterRadio" id="filterRadiounofficial" style="display: inline !important;" value="unofficial"><label>Unofficial: use unofficial flags</label>' +
+            '<br/><input type="radio" name="filterRadio" id="filterRadioofficial" style="display: inline !important;" value="official"><label>Official only: only use official flags</label>' +
             '</form>';
 			
         return htmlFixedStart + htmlSaveButton + filterRadio;
@@ -44,6 +44,9 @@ var setup = {
             flagOptionStatus = "fixed";
         }
         var radioButton = document.getElementById("filterRadio" + flagOptionStatus);
+        if (!radioButton) {
+            radioButton = document.getElementById("filterRadiofixed");
+        }
         radioButton.checked = true;
     },
 	show: function () {
@@ -72,7 +75,7 @@ var setup = {
             this.disabled = true;
             this.innerHTML = 'Saving...';
             setup_el.parentNode.removeChild(setup_el);
-            save(flagOptionsVar, flagOptions);
+            save(flagOptionsVar, flagOption);
 			alert("Fixed Flags option set, please refresh all of your 4chan tabs!");
 
         }, false);
@@ -82,10 +85,10 @@ var setup = {
 	}
 };
 
-flagOptions = load(flagOptionsVar);
+flagOption = load(flagOptionsVar);
 
-if (!flagOptions || flagOptions === "" || flagOptions === "undefined") {
-	flagOptions = "fixed";
+if (!flagOption || flagOption === "" || flagOption === "undefined") {
+	flagOption = "fixed";
 }
 
 function save(key, value) {
