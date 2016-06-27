@@ -3,6 +3,8 @@ A very small script that attempts to fix incorrect or outdated flags on the flag
 
 You can see what changes the various presets make [here](https://raw.githubusercontent.com/flagzzzz/4chan-Flag-Fixer/master/Change%20Details.txt).
 
+![Some modified flags](https://raw.githubusercontent.com/flagzzzz/4chan-Flag-Fixer/master/extra/Sample.jpg)
+
 ##Installation
 1) Install GreaseMonkey if you are using Firefox or TamperMonkey if you are using Chrome.
 
