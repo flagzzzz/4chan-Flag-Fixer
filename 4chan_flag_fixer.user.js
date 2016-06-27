@@ -9,7 +9,6 @@
 // @exclude     http*://boards.4chan.org/sp/catalog
 // @exclude     http*://boards.4chan.org/pol/catalog
 // @version     1.11
-// @grant       GM_xmlhttpRequest
 // @grant       GM_registerMenuCommand
 // @grant       GM_getValue
 // @grant       GM_setValue
@@ -86,18 +85,18 @@ var setup = {
 	}
 };
 
-flagOption = load(flagOptionsVar);
-
-if (!flagOption || flagOption === "" || flagOption === "undefined") {
-	flagOption = "fixed";
-}
-
 function save(key, value) {
 	GM_setValue(nameSpace + key, value);
 }
 
 function load(key) {
 	return GM_getValue(nameSpace + key);
+}
+
+
+flagOption = load(flagOptionsVar);
+if (!flagOption || flagOption === "" || flagOption === "undefined") {
+	flagOption = "fixed";
 }
 
 setup.setupSetting();
