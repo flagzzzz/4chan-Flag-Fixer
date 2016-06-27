@@ -1,4 +1,4 @@
-# 4chan-Flag-Fixer
+# 4chan Flag Fixer
 A very small script that attempts to fix incorrect or outdated flags on the flag boards of 4chan. It features three presents which you can choose from. You can choose which preset they would like to use in your browser's GreaseMonkey/TamperMonkey user script commands menu.
 
 You can see what changes the various presets make [here](https://raw.githubusercontent.com/flagzzzz/4chan-Flag-Fixer/master/Change%20Details.txt).
