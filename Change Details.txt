@@ -9,6 +9,7 @@ Fixed:
 -"glossed" Jersey, South Sudan, Saint Martin, Sint Maarten, Curaçao
 -updated Tuvalu, Tokelau, Venezuela, Paraguay, Myanmar, Lesotho, Ethiopia, Belarus (slightly reduced saturation in red area)
 -changed Guadeloupe to an unofficial flag that it more widely used
+-added flags for A1, A2, and AP
 
 Official:
 -same changes as Fixed
