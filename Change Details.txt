@@ -1,9 +1,9 @@
 Fixed:
 -Removed the yellow dot from US flag
+-darkened the blue on the French flag
 -tweaked Libya to be more consistent with the other flags
 -turned Western Sahara in the right direction
 -redid the Isle of Man and Guernsey, "glossed" them
--darkened the blue on the French flag
 -reduced size of coat of arms on the flag of Ecuador
 -added the coat of arms to the Haitian flag
 -"glossed" Jersey, South Sudan, Saint Martin, Sint Maarten, Curaçao

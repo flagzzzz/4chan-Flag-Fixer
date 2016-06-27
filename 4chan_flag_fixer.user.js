@@ -8,14 +8,14 @@
 // @exclude     http*://boards.4chan.org/int/catalog
 // @exclude     http*://boards.4chan.org/sp/catalog
 // @exclude     http*://boards.4chan.org/pol/catalog
-// @version     1.1
+// @version     1.11
 // @grant       GM_xmlhttpRequest
 // @grant       GM_registerMenuCommand
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @grant       GM_addStyle
 // @run-at      document-end
-// @require http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+// @icon   		https://github.com/flagzzzz/4chan-Flag-Fixer/raw/master/extra/icon.png
 // @updateURL   https://github.com/flagzzzz/4chan-Flag-Fixer/raw/master/4chan_flag_fixer.user.js
 // @downloadURL https://github.com/flagzzzz/4chan-Flag-Fixer/raw/master/4chan_flag_fixer.user.js
 // ==/UserScript==
