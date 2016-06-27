@@ -8,6 +8,7 @@ Fixed:
 -added the coat of arms to the Haitian flag
 -"glossed" Jersey, South Sudan, Saint Martin, Sint Maarten, Curaçao
 -updated Tuvalu, Tokelau, Venezuela, Paraguay, Myanmar, Lesotho, Ethiopia, Belarus (slightly reduced saturation in red area)
+-changed Guadeloupe to an unofficial flag that it more widely used
 
 Official:
 -same changes as Fixed
