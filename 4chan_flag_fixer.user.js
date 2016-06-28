@@ -9,12 +9,12 @@
 // @exclude     http*://boards.4chan.org/int/catalog
 // @exclude     http*://boards.4chan.org/sp/catalog
 // @exclude     http*://boards.4chan.org/pol/catalog
-// @version     1.32
+// @version     1.33
 // @grant       GM_registerMenuCommand
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @grant       GM_addStyle
-// @run-at      document-end
+// @run-at      document-idle
 // @icon   		https://github.com/flagzzzz/4chan-Flag-Fixer/raw/master/extra/icon.png
 // @updateURL   https://github.com/flagzzzz/4chan-Flag-Fixer/raw/master/4chan_flag_fixer.user.js
 // @downloadURL https://github.com/flagzzzz/4chan-Flag-Fixer/raw/master/4chan_flag_fixer.user.js
