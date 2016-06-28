@@ -5,6 +5,7 @@
 // @include     http*://boards.4chan.org/int/*
 // @include     http*://boards.4chan.org/sp/*
 // @include     http*://boards.4chan.org/pol/*
+// @include     http*://s.4cdn.org/image/country/*
 // @exclude     http*://boards.4chan.org/int/catalog
 // @exclude     http*://boards.4chan.org/sp/catalog
 // @exclude     http*://boards.4chan.org/pol/catalog
