@@ -9,7 +9,7 @@
 // @exclude     http*://boards.4chan.org/int/catalog
 // @exclude     http*://boards.4chan.org/sp/catalog
 // @exclude     http*://boards.4chan.org/pol/catalog
-// @version     1.33
+// @version     1.34
 // @grant       GM_registerMenuCommand
 // @grant       GM_getValue
 // @grant       GM_setValue
@@ -107,5 +107,9 @@ GM_addStyle(".flag-a2 { background-position:-48px -176px !important; }");
 GM_addStyle(".flag-ap { background-position:-64px -176px !important; }");
 var address = window.location.href;
 if (address.indexOf("4cdn.org/image/country") > -1) {
-    document.querySelector('img').src = flagReplaceUrl + "flags/" + flagOption + "/" + address.substring(address.length - 6, address.length);
+    var parent = document.querySelector('img').parentNode;
+    parent.removeChild(document.querySelector('img'));
+    var img = document.createElement('img');
+    img.src = flagReplaceUrl + "flags/" + flagOption + "/" + address.substring(address.length - 6, address.length);
+    parent.appendChild(img);
 }
