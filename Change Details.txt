@@ -13,6 +13,7 @@ Fixed:
 -corrected the coloration of Uzbekistan
 -made Monaco have the correct ratio
 -Antarctica now uses a popular flag
+-made the flag of the Vatican a square like Switzerland
 
 Official:
 -same changes as Fixed
@@ -26,3 +27,4 @@ Unofficial:
 Todo:
 -create setting which can allow the user to toggle displaying flags on flag boards of their choice
 -make it so that when a flag is clicked, the replaced version will pop up instead of the normal version - DONE
+-change the flavicon of the tab which opens when you click on the flag
