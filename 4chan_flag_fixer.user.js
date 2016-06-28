@@ -9,7 +9,7 @@
 // @exclude     http*://boards.4chan.org/int/catalog
 // @exclude     http*://boards.4chan.org/sp/catalog
 // @exclude     http*://boards.4chan.org/pol/catalog
-// @version     1.3
+// @version     1.31
 // @grant       GM_registerMenuCommand
 // @grant       GM_getValue
 // @grant       GM_setValue
