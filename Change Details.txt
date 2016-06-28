@@ -11,6 +11,8 @@ Fixed:
 -changed Guadeloupe to an unofficial flag that it more widely used
 -added flags for A1, A2, and AP
 -corrected the coloration of Uzbekistan
+-made Monaco have the correct ratio
+-Antarctica now uses a popular flag
 
 Official:
 -same changes as Fixed
@@ -18,9 +20,9 @@ Official:
 
 Unofficial:
 -same changes as Fixed
--the following countries use their unofficial flag: Antarctica, Saint Barthelemy, Réunion, and French Guiana
+-the following countries use their unofficial flag: Saint Barthelemy, Réunion, and French Guiana
 -rescaled Niger to 13px by 11px (might move to Fixed)
 
 Todo:
 -create setting which can allow the user to toggle displaying flags on flag boards of their choice
--make it so that when a flag is clicked, the replaced version will pop up instead of the normal version
+-make it so that when a flag is clicked, the replaced version will pop up instead of the normal version - DONE
