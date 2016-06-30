@@ -120,7 +120,13 @@ function parseA1A2Posts() {
 
 flagOption = load(flagOptionsVar);
 if (!flagOption || flagOption === "" || flagOption === "undefined") {
-	flagOption = "fixed";
+	setTimeout(function() {
+		if (window.confirm("Would you like to set a preset for 4chan Flag Fixer? You can always change this later.") == true) {
+			setup.show();
+		} else {
+			flagOption = "fixed";
+		}
+	}, 2000);
 }
 
 setup.setupSetting();
