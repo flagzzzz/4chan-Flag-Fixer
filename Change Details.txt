@@ -5,13 +5,13 @@ Fixed:
 -turned Western Sahara in the right direction
 -redid the Isle of Man and Guernsey, "glossed" them
 -reduced size of coat of arms on the flag of Ecuador
--added the coat of arms to the Haitian flag
+-added the coat of arms to the Haitian and Guatemalan flags
 -"glossed" Jersey, South Sudan, Saint Martin, Sint Maarten, Curaçao
 -updated Tuvalu, Tokelau, Venezuela, Paraguay, Myanmar, Lesotho, Ethiopia, Belarus (slightly reduced saturation in red area)
 -changed Guadeloupe to an unofficial flag that it more widely used
 -added flags for A1, A2, and AP
 -corrected the coloration of Uzbekistan
--made Monaco have the correct ratio
+-made Monaco and Belgium have the correct ratio
 -Antarctica now uses a popular flag
 -made the flag of the Vatican a square like Switzerland
 
