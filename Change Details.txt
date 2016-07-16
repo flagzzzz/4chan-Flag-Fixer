@@ -21,7 +21,7 @@ Official:
 
 Unofficial:
 -same changes as Fixed
--the following countries use their unofficial flag: Saint Barthelemy, Réunion, and French Guiana
+-the following countries use their unofficial flag: Saint Barthelemy, Réunion, French Guiana, and Bonaire, Sint Eustatius, & Saba
 -rescaled Niger to 13px by 11px (might move to Fixed)
 
 Todo:
