@@ -9,7 +9,7 @@
 // @exclude     http*://boards.4chan.org/int/catalog
 // @exclude     http*://boards.4chan.org/sp/catalog
 // @exclude     http*://boards.4chan.org/pol/catalog
-// @version     1.36
+// @version     1.37
 // @grant       GM_registerMenuCommand
 // @grant       GM_getValue
 // @grant       GM_setValue
@@ -115,6 +115,12 @@ function parseA1A2Posts() {
         elements[i].onclick = function() { window.open(flagReplaceUrl + "flags/" + flagOption + "/ap.gif"); };
         elements[i].title = "Asia/Pacific Region";
     }
+	
+	elements = document.getElementsByClassName('flag-tl');
+
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].title = "Timor-Leste";
+    }
 }
 
 
@@ -130,10 +136,10 @@ if (!flagOption || flagOption === "" || flagOption === "undefined") {
 }
 
 setup.setupSetting();
-GM_addStyle(".flag { display:inline-block; width:16px; height:11px; position:relative; top:1px; background-image:url(\'" + flagReplaceUrl + "flagsheets/" + flagOption + ".png" + "\') !important; background-repeat: no-repeat;}");
-GM_addStyle(".flag-a1 { background-position:-32px -176px !important; }");
-GM_addStyle(".flag-a2 { background-position:-48px -176px !important; }");
-GM_addStyle(".flag-ap { background-position:-64px -176px !important; }");
+GM_addStyle(".flag { display:inline-block; width:16px; height:11px; position:relative; top:1px; background-image:url(\'" + flagReplaceUrl + "flagsheets/" + flagOption + ".png" + "\') !important; background-repeat: no-repeat;}" +
+			".flag-a1 { background-position:-32px -176px !important; }" +
+			".flag-a2 { background-position:-48px -176px !important; }" +
+			".flag-ap { background-position:-64px -176px !important; }");
 parseA1A2Posts();
 var address = window.location.href;
 if (address.indexOf("4cdn.org/image/country") > -1) {
