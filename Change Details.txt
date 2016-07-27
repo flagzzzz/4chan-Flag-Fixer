@@ -12,7 +12,6 @@ Fixed:
 -added flags for A1, A2, and AP
 -A1, A2, AP, and Timor-Leste now show their correct names when hovering over them
 -corrected the coloration of Uzbekistan
--made Monaco and Belgium have the correct ratio
 -Antarctica now uses a popular flag
 -made the flag of the Vatican a square like Switzerland
 
@@ -23,7 +22,6 @@ Official:
 Unofficial:
 -same changes as Fixed
 -the following countries use their unofficial flag: Saint Barthelemy, Réunion, French Guiana, and Bonaire, Sint Eustatius, & Saba
--rescaled Niger to 13px by 11px (might move to Fixed)
 
 Todo:
 -create setting which can allow the user to toggle displaying flags on flag boards of their choice
