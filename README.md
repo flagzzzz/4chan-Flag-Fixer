@@ -11,3 +11,7 @@ You can see what changes the various presets make [here](https://raw.githubuserc
 2) Click [here](https://github.com/flagzzzz/4chan-Flag-Fixer/raw/master/4chan_flag_fixer.user.js) to install the script.
 
 3) Set your preset using the User Script Commands menu in your browser
+
+##Other flag scripts
+[Regional flags- show your state/region/provinces flag if you want](https://flaghunters.github.io/Extra-Flags-for-4chan/)<br/>
+[Flaggot- script which counts and displays which flags are in a thread](https://github.com/flagzzzz/flaggot)
